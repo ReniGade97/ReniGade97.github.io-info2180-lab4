@@ -41,7 +41,7 @@ function overBoundary(){
 function checkWin(){
 	if(!outOfBounds){
 		win = true;
-		statusState.innerText = 'You Win! Select "S" to try again.';
+		status.innerText = 'You Win! Select "S" to try again.';
 		}
 
 }
